@@ -190,9 +190,15 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script>$(".button-collapse").sideNav();</script>
- 
-  
-  
+ <!-- Banner Cookie -->
+ <script src="js/cookiechoices.js"></script>
+	<script>//<![CDATA[
+	document.addEventListener('DOMContentLoaded', function(event) {
+    cookieChoices.showCookieConsentBar('Il tuo messaggio per i visitarori.',
+        'Chiudi', 'Maggiori Informazioni',
+                 'http://indirizzo_pagina_cookie_policy');
+  	});
+	//]]></script>
 
   </body>
 </html>
